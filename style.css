@@ -1,5 +1,19 @@
+html, body {
+    background: linear-gradient(to bottom right, rgb(252, 66, 181), rgb(199, 53, 243), rgb(149, 198, 255));
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+h1, h2, h3 {
+    font-family: 'Seymour One', sans-serif;
+    color: white;
+    text-align: center;
+}
+
 .grid {
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
     flex-wrap: wrap;
     height: 300px;
     width: 400px;
